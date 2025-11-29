@@ -1,0 +1,14 @@
+import RenderFriends from "./RenderFriends";
+import styles from "./Friends.module.css"
+
+const FriendsList = ({ friends}) => {
+    return (
+        <ul className={styles.friendsList}>
+            {friends.map((friend) => (
+                <RenderFriends friend={friend} key ={friend.id} />
+            ))}
+        </ul>
+    )
+}
+
+export default FriendsList
