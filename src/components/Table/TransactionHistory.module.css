@@ -44,6 +44,7 @@
   text-align: left;
   padding-left: 20px;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* Right-align Amount column */
