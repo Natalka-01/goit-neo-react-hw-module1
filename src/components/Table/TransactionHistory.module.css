@@ -1,0 +1,61 @@
+
+/* --- Main Table Container --- */
+.transactionTable {
+  width: 80%; 
+  margin: 40px auto; 
+  border-collapse: collapse; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center; 
+}
+
+/* --- Table Header (thead) --- */
+.transactionTable th {
+  background-color: #333; 
+  color: #fff; 
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  border: 1px solid #333; 
+  text-align: center;
+}
+
+/* --- Table Body (tbody) Rows --- */
+.transactionTable td {
+  padding: 12px 10px;
+  border: 1px solid #ddd; /* Light border for body cells */
+  font-size: 0.95em;
+  color: #555;
+}
+
+/* --- Alternating Row Styles (Zebra Stripes) --- */
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #f0f0f0; 
+}
+
+
+.transactionTable tbody tr:nth-child(odd) {
+  background-color: #ffffff; 
+}
+
+/* --- First and Last Columns --- */
+.transactionTable td:first-child,
+.transactionTable th:first-child {
+  text-align: left;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/* Right-align Amount column */
+.transactionTable td:nth-child(2),
+.transactionTable th:nth-child(2) {
+  text-align: right;
+  padding-right: 20px;
+  text-align: center;
+}
+
+/* Center Currency column */
+.transactionTable td:last-child,
+.transactionTable th:last-child {
+  text-align: center;
+}
