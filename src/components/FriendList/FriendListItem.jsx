@@ -1,4 +1,4 @@
-import styles from "./Friends.module.css"
+import styles from "./FriendList.module.css"
 import clsx from 'clsx'
 
 const RenderFriends = ({ friend }) => {

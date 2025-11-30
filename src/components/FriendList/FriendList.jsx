@@ -1,5 +1,5 @@
-import RenderFriends from "./RenderFriends";
-import styles from "./Friends.module.css"
+import RenderFriends from "./FriendListItem";
+import styles from "./FriendList.module.css"
 
 const FriendsList = ({ friends}) => {
     return (
